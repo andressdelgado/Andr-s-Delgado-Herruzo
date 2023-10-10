@@ -1,0 +1,175 @@
+/*CODIGO COMPARTIDO POR LAS DOS PÁGINAS HTML*/
+body{
+    background-color: rgb(255, 255, 255);/*Aplicar un color de fondo al css*/
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    max-width: 1280px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*SE LE APLICARA ESTE TIPO DE LETRA A TODA LA PAGINA*/
+    border: 2px solid black;
+}
+
+header{
+    background-color: rgb(135, 213, 213);
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+}
+
+header>a{
+   float: right;
+}
+
+.iconos{
+    width: 20px;
+}
+
+#logo{
+    width: 125px;
+}
+
+header>h3{
+    display: inline;
+    margin-left: 150px;
+}
+header>div{
+    display: inline;
+}
+
+#contacto{
+    width: 550px;
+    margin-left: 150px;
+}
+
+nav{
+    background-color: rgb(39, 120, 191);
+    padding: 15px;
+}
+
+nav ul{/*posiciona el ul en linea en vez de en bloque*/
+    display: inline;
+    list-style: none;
+    
+}
+
+nav li{
+    display: inline;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(46, 67, 204);
+    padding: 15px;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#primero{
+    margin-left: 450px;
+}
+
+#segundo{
+    margin-left: 150px;
+}
+
+
+/*CODIGO DEL CONTENIDO DE LA PRIMERA PÁGINA*/
+main{
+    background-color:rgb(135, 213, 213);
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    background-color:rgb(87, 108, 108);
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+table{
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+table td{
+    padding: 15px;
+}
+
+#tablainc, #tablainc td{
+    border: 2px solid white;
+    border-collapse: collapse;/*junta los bordes para q solo sea uno*/
+}
+
+#tablainc{
+    background-color: rgb(87, 108, 108);
+    width: 00px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+img{
+    width: 500px;
+}
+
+h2{
+    text-align: center;
+}
+
+/*CODIGO CONENIDO DE LA SEEGUNDA PAGINA*/
+
+
+#fondoimagen{
+    background-image: url(imagenes/fondo.jpg);/*SE LE APLICARA UNNA IMAGEN DE FONDO AL MAIN*/
+    padding: 30px;
+}
+
+table ol{
+    font-size: x-large;
+}
+
+form{
+    background-color: rgb(39, 120, 191);
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form div{
+    margin: 20px;
+    padding: 10px;
+}
+
+input[type="submit"]{/*CAMBIA EL DISEÑO DEL BOTON DE ENVIAR*/
+    background-color: rgb(5, 33, 63); 
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+span{
+    font-style: italic;/*EL CONTENIDO DEL SPAN SE PONDRA EN CURSIVA*/
+}
+
+/*CODIGO COMPARTIDO  POR AMBAS PAGINAS*/
+
+footer{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
